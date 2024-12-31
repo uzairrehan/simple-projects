@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uzair - Chat App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Chat</h1>
+    </header>
+    <main>
+      <section id="messages"></section>
+
+      <div class="msg-center">
+        <div>
+          <input
+            placeholder="Type message for User 1..."
+            class="input"
+            type="text"
+            id="input1"
+            aria-label="User 1 message input"
+          />
+          <button id="send1Btn" class="button" role="button">Send</button>
+        </div>
+
+        <div>
+          <input
+            placeholder="Type message for User 2..."
+            class="input"
+            type="text"
+            id="input2"
+            aria-label="User 2 message input"
+          />
+          <button id="send2Btn" class="button" role="button">Send</button>
+        </div>
+
+        <button id="clear" class="button">Clear All</button>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
